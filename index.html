@@ -5,40 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SHAN Academy of Quantum Simulation & Materials</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f7ff;
+      color: #003366;
+    }
+
+    nav {
+      background-color: #003366;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav img {
+      height: 50px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #002244;
+    }
+
+    h2 {
+      margin-top: 10px;
+      font-size: 24px;
+      color: #004080;
+    }
+
+    img.profile {
+      width: 200px;
+      border-radius: 50%;
+      border: 4px solid #004080;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 16px;
+      max-width: 800px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
-  <nav>
-  <img src="logo.png" alt="Lab Logo" style="height:60px; vertical-align: middle;">
-  <a href="index.html">Home</a>
-  <a href="about.html">About Me</a>
-  <a href="lab.html">About Lab</a>
-  <a href="learning.html">Learning</a>
-  <a href="research.html">Research</a>
-  <a href="course.html">Course</a>
-  <a href="contact.html">Contact</a>
-</nav>
 
+  <nav>
+    <img src="logo.png" alt="Lab Logo" />
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="lab.html">About Lab</a>
+    <a href="learning.html">Learning</a>
+    <a href="research.html">Research</a>
+    <a href="course.html">Course</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
   <main>
     <h1>SHAN Academy of Quantum Simulation & Materials</h1>
     <p><em>A Virtual Lab for DFT & MD Training</em></p>
-    
-    <img src="your-photo.jpg" alt="Zeshan Ahmed" style="width:200px; border-radius: 50%; border: 3px solid #003366; margin: 20px 0;">
-    
+
+    <img src="your-photo.jpg" alt="Zeshan Ahmed" class="profile">
+
     <h2>Zeshan Ahmed</h2>
     <p><strong>Founder of SAQSM</strong></p>
     <p>MPhil in Physics (Specialization in Material Science)</p>
     <p>Department of Physics, Kohat University of Science & Technology, Pakistan</p>
     <p>Specialized in Density Functional Theory (DFT) & Molecular Dynamics (MD) Simulations</p>
 
-    <p>I founded SAQSM to help students and researchers learn practical skills in computational materials science using tools like CASTEP, DMol³, and Materials Studio. You can also follow my tutorials on YouTube for guided learning.</p>
-    
+    <p>
+      I founded SAQSM to help students and researchers learn practical skills in computational materials science using tools like CASTEP, DMol³, and Materials Studio.
+      You can also follow my tutorials on YouTube for guided learning and research support.
+    </p>
+
     <p><strong>Email:</strong> zeeshankhattak4u@gmail.com<br>
     <strong>Phone:</strong> +92 340 0628584</p>
   </main>
 
   <footer>
-    <p>© 2025 SHAN Academy of Quantum Simulation & Materials</p>
+    <p>&copy; 2025 SHAN Academy of Quantum Simulation & Materials</p>
   </footer>
+
 </body>
 </html>
